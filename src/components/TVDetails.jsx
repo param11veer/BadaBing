@@ -3,7 +3,7 @@ import { FaImdb } from "react-icons/fa6";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { asyncloadtv } from "../store/actions/tvActions";
-import { removetv } from "../store/reducers/tvslice";
+import { removetv } from "../store/reducers/tvSlice";
 import Loading from "./Loading";
 import HorizontalCards from "./temple/HorizontalCards";
 
