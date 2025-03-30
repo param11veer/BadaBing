@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from "../../utils/axios";
-import { loadtv } from "../reducers/tvslice";
+import { loadtv } from "../reducers/tvSlice";
 
 const tvActions = () => {
   return (
